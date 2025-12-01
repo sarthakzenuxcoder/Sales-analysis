@@ -1,60 +1,103 @@
-🎬 Review System
-A Python-based Movie Recommendation Tool powered by Real-Time Reviews & API Analysis
+📊 Sales Analysis Project
+End-to-End Data Cleaning, Processing & Insight Generation Using Python
 ⭐ Overview
 
-Review System is a lightweight yet powerful movie recommendation engine built entirely in Python.
-Just enter a movie’s name — and the system automatically:
+Sales Analysis Project is a complete data analytics workflow built using Python.
+Starting from messy, unstructured sales data, this project takes you through:
 
-Fetches real-time reviews from an external API
+Data cleaning & preprocessing
 
-Processes and analyzes the responses
+Filtering and sorting
 
-Normalizes ratings & interprets sentiment
+Exploratory analysis
 
-And finally tells you whether the movie is “Worth Watching” or “Better to Skip”
+Trend identification
 
-It’s simple, fast, accurate, and perfect for anyone exploring API integration, data cleaning, sentiment logic, and recommendation systems in Python.
+KPI extraction
+
+Insight generation
+
+Visual summaries
+
+This project demonstrates real-world data analysis skills and mirrors how analysts work with sales teams to drive business decisions.
 
 🚀 Features
-🔹 1. Real-Time Review Fetching
+🔹 1. Complete Data Cleaning Pipeline
 
-Uses Python to call a movie review API, collect data, parse JSON responses, and extract meaningful review information.
+Handles real-world messy data problems:
 
-🔹 2. Intelligent Recommendation Engine
+Missing values
 
-Combines:
+Duplicates
 
-Rating normalization
+Incorrect formats
 
-Basic sentiment interpretation
+Outliers
 
-Weighted scoring
-To generate a clear Watch / Skip recommendation.
+Inconsistent categories
 
-🔹 3. Clean Modular Codebase
+Column normalization
 
-Code is well-structured with separate modules for:
+Ensures the entire dataset becomes analysis-ready.
 
-API Interaction
+🔹 2. Deep Exploratory Data Analysis (EDA)
 
-Data Cleaning
+Performed detailed EDA to uncover:
 
-Review Processing
+Top-selling products
 
-Recommendation Logic
+Revenue patterns
 
-Easy to understand, extend, or modify.
+Daily/Monthly/Seasonal trends
 
-🔹 4. No Frontend / No Backend
+Customer purchasing behavior
 
-Runs entirely from the command line — quick and beginner-friendly, yet technically strong enough to showcase Python skills.
+Category-wise performance
+
+Sales spikes & dips
+
+Identifies the why behind the patterns.
+
+🔹 3. Insight-Rich Visualizations
+
+Using Matplotlib and Seaborn, generated clean and useful charts:
+
+Line charts (sales trends)
+
+Bar charts (product/category performance)
+
+Pie charts (revenue share)
+
+Heatmaps (correlations)
+
+Distribution plots
+
+Visuals help convert raw numbers into meaningful stories.
+
+🔹 4. Actionable Business Insights
+
+Delivered concise insights such as:
+
+Most profitable product categories
+
+Peak sale months
+
+Underperforming segments
+
+Revenue contribution patterns
+
+Customer behavior insights
+
+These insights can be used to guide marketing, pricing, and inventory decisions.
 
 🛠️ Technologies Used
 
 Python
 
-Requests / urllib (for API calls)
+Pandas – Data Cleaning & Processing
 
-JSON Processing
+NumPy – Numerical Computation
 
-Standard Libraries (os, sys, etc.)
+Matplotlib & Seaborn – Visualizations
+
+Jupyter Notebook / VS Code (optional)
